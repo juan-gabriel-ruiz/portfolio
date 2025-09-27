@@ -1,6 +1,3 @@
-¡Perfecto! Entonces vamos a armar un **README.md** pensado específicamente para tu portfolio según el **HTML y CSS** que me pasaste. Te dejo un ejemplo listo para pegar en GitHub:
-
----
 
 # 🌐 Portfolio de Ruiz Juan Gabriel
 
