@@ -1,24 +1,34 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Configuración general del documento -->
+    <meta charset="UTF-8"> <!-- Juego de caracteres -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Compatibilidad con navegadores antiguos -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Adaptación a móviles -->
+    
+    <!-- Estilos externos -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- Fuente externa de Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
     
+    <!-- Título de la página -->
     <title>CV _Ruiz Juan Gabriel</title>
 </head>
 <body>
-    <div class="todo">
+    <div class="todo"><!-- Contenedor principal -->
 
+        <!-- Menú lateral -->
         <section class="menu">
             <header>
+                <!-- Logo o ícono de perfil -->
                 <img src="imagenes/code-optimization-interface-circular-symbol_icon-icons.com_53809.png">
                 <h3 class="menu-title">RUIZ JUAN GABRIEL</h3>
             </header>
+
+            <!-- Navegación con enlaces a secciones -->
             <nav>
                 <ul class="menu-list">
                     <li class="menu-list-item"><a href="#datos-personales">Datos personales</a></li>
@@ -27,188 +37,183 @@
                     <li class="menu-list-item"><a href="#formacion">Formación</a></li>
                     <li class="menu-list-item"><a href="#xp">Proyectos</a></li>
                 </ul>
-
             </nav>
         </section>
 
+        <!-- Título y presentación -->
         <section class="title">
             <div class="title-div">
+                <!-- Imagen de perfil -->
                 <img class="imagen-perfil" src="imagenes/paracv.jpg">
+
+                <!-- Texto de presentación -->
                 <div class="title-container">
                     <h2>Desarrollador de Software | Lic. en Tecnologias Digitales</h2>
                     <h3>Soy estudiante de la Lic en Tecnologias Digitales, egresado de la Tecnicatura Superior en Desarrollo de Software del IFTS N°11 y estoy en busca de mi primer empleo en el sector IT.</h3>
+                    
+                    <!-- Links a redes y CV -->
                     <ul>
                         <li><ion-icon name="logo-github"></ion-icon><a href="https://github.com/juan-gabriel-ruiz">Github</a></li>
                         <li><ion-icon name="logo-linkedin"></ion-icon><a href="https://www.linkedin.com/in/juan-gabriel-ruiz/">Linkedin</a></li>
                         <li><ion-icon name="at-outline"></ion-icon><a href="mailto:juanruizpoket@gmail.com">Email</a></li>
                         <li><ion-icon name="download-sharp"></ion-icon><a href="assets/Cv_Ruiz_Juan.pdf" download="CV_Juan_Gabriel_Ruiz.pdf">Currículum</a></li>
+                        <!-- Ejemplo de link comentado -->
                         <!-- <li><ion-icon name="download-sharp"></ion-icon><a href="">Currículum</a></li> -->
                     </ul>
                 </div>
             </div>
         </section>
 
-        
+        <!-- Datos personales -->
         <section class="datos" id="datos-personales">
             <h3>Datos personales</h3>
-        <ul>
-            <li>
-                <span class="icon"><ion-icon name="call-outline"></ion-icon></span>
-                <span class="text"> 11-64618755</span>
-            </li>
-            <li>
-                <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
-                <span class="text"> juanruizpoket@gmail.com</span>
-            </li>
-            <li>
-                <span class="icon"><ion-icon name="fitness-outline"></ion-icon></span>
-                <span class="text">34 años</span>
-            </li>
-            <li>
-                <span class="icon"><ion-icon name="location-outline"></ion-icon></span>
-                <span class="text">San Nicolas (CABA)</span>
-            </li>
-        </ul>
-           </section>
+            <ul>
+                <li>
+                    <span class="icon"><ion-icon name="call-outline"></ion-icon></span>
+                    <span class="text"> 11-64618755</span>
+                </li>
+                <li>
+                    <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+                    <span class="text"> juanruizpoket@gmail.com</span>
+                </li>
+                <li>
+                    <span class="icon"><ion-icon name="fitness-outline"></ion-icon></span>
+                    <span class="text">34 años</span>
+                </li>
+                <li>
+                    <span class="icon"><ion-icon name="location-outline"></ion-icon></span>
+                    <span class="text">San Nicolas (CABA)</span>
+                </li>
+            </ul>
+        </section>
         
+        <!-- Sección sobre mí -->
         <section class="about" id="sobre-mi">
             <div class="about-container">
-                
                 <h3>Sobre mi</h3>
                 <ul>
                     <li>
-                <p>Soy Técnico Superior en Desarrollo de Software y actualmente hago una Licenciatura en Tecnologías Digitales. Cuento con formación en frontend y backend, y gran interés en crecer dentro del mundo IT. Manejo tecnologías como JavaScript, TypeScript, Angular, Node.js, Express, MySQL, MongoDB y Firebase, además de tener conocimientos en Docker, AWS, testing, patrones de diseño y metodologías ágiles.</p>
-                <p>Me considero una persona proactiva, con facilidad y ganas para aprender nuevas herramientas y trabajar en equipo. Aunque aún no cuento con experiencia laboral formal, he desarrollado proyectos académicos y personales que me permitieron aplicar mis conocimientos en consumo de APIs, bases de datos y despliegue en la nube..</p>
-                <p>Busco la oportunidad de integrarme a un equipo donde pueda aportar mis habilidades, seguir aprendiendo y crecer profesionalmente como desarrollador.</p>
-
-            </li>
-            </ul>
+                        <!-- Párrafos de presentación personal -->
+                        <p>Soy Técnico Superior en Desarrollo de Software y actualmente hago una Licenciatura en Tecnologías Digitales. Cuento con formación en frontend y backend, y gran interés en crecer dentro del mundo IT. Manejo tecnologías como JavaScript, TypeScript, Angular, Node.js, Express, MySQL, MongoDB y Firebase, además de tener conocimientos en Docker, AWS, testing, patrones de diseño y metodologías ágiles.</p>
+                        <p>Me considero una persona proactiva, con facilidad y ganas para aprender nuevas herramientas y trabajar en equipo. Aunque aún no cuento con experiencia laboral formal, he desarrollado proyectos académicos y personales que me permitieron aplicar mis conocimientos en consumo de APIs, bases de datos y despliegue en la nube..</p>
+                        <p>Busco la oportunidad de integrarme a un equipo donde pueda aportar mis habilidades, seguir aprendiendo y crecer profesionalmente como desarrollador.</p>
+                    </li>
+                </ul>
             </div>
         </section>
 
+        <!-- Habilidades técnicas -->
         <section class="skills" id="skills">
             <h3 class="section-title">Skills</h3>
-                <div class="skills-line">
+            <div class="skills-line">
 
-                    <div class="skills-box">
-                        <ul>
-                            <div class="icono"><ion-icon class="agrandar" name="logo-html5"></ion-icon></div>
-                            <li> HTML 5</li>
-                        </ul>
-                    </div>
+                <!-- Cada bloque representa una habilidad -->
+                <div class="skills-box">
+                    <ul>
+                        <div class="icono"><ion-icon class="agrandar" name="logo-html5"></ion-icon></div>
+                        <li> HTML 5</li>
+                    </ul>
+                </div>
 
-                    <div class="skills-box">
-                        <ul>
-                            <div class="icono"><ion-icon class="agrandar" name="logo-css3"></ion-icon></div>
-                            <li>CSS</li>
-                        </ul>
-                    </div>
+                <div class="skills-box">
+                    <ul>
+                        <div class="icono"><ion-icon class="agrandar" name="logo-css3"></ion-icon></div>
+                        <li>CSS</li>
+                    </ul>
+                </div>
 
-                    <div class="skills-box">
-                        <ul>
-                            <div class="icono"><ion-icon class="agrandar" name="logo-javascript"></ion-icon></div>
-                            <li>Javascript</li>
-                        </ul>
-                    </div>
+                <div class="skills-box">
+                    <ul>
+                        <div class="icono"><ion-icon class="agrandar" name="logo-javascript"></ion-icon></div>
+                        <li>Javascript</li>
+                    </ul>
+                </div>
 
-                    <div class="skills-box">
-                        <ul>
-                            <div class="icono"><ion-icon class="agrandar" name="logo-github"></ion-icon></div>
-                            <li>Github</li>
-                        </ul>
-                    </div>
+                <div class="skills-box">
+                    <ul>
+                        <div class="icono"><ion-icon class="agrandar" name="logo-github"></ion-icon></div>
+                        <li>Github</li>
+                    </ul>
+                </div>
 
-                    <div class="skills-box">
-                        <ul>
-                            <div class="icono"><ion-icon class="agrandar" name="logo-react"></ion-icon></div>
-                            <li>React</li>
-                        </ul>
-                    </div>
-                    
-                    <div class="skills-box">
-                        <ul>
-                            <div class="icono"><ion-icon class="agrandar" name="logo-angular"></ion-icon></div>
-                            <li>Angular</li>
-                        </ul>
-                    </div>
+                <div class="skills-box">
+                    <ul>
+                        <div class="icono"><ion-icon class="agrandar" name="logo-react"></ion-icon></div>
+                        <li>React</li>
+                    </ul>
+                </div>
+                
+                <div class="skills-box">
+                    <ul>
+                        <div class="icono"><ion-icon class="agrandar" name="logo-angular"></ion-icon></div>
+                        <li>Angular</li>
+                    </ul>
+                </div>
 
-                    <div class="skills-box">
-                        <ul>
-                            <div class="icono"><ion-icon class="agrandar" name="logo-vue"></ion-icon></div>
-                            <li>Vue</li>
-                        </ul>
-                    </div>
+                <div class="skills-box">
+                    <ul>
+                        <div class="icono"><ion-icon class="agrandar" name="logo-vue"></ion-icon></div>
+                        <li>Vue</li>
+                    </ul>
+                </div>
 
-                    <div class="skills-box">
-                        <ul>
-                            <div class="icono"><ion-icon class="agrandar" name="logo-nodejs"></ion-icon></div>
-                            <li>Node JS</li>
-                        </ul>
-                    </div>
+                <div class="skills-box">
+                    <ul>
+                        <div class="icono"><ion-icon class="agrandar" name="logo-nodejs"></ion-icon></div>
+                        <li>Node JS</li>
+                    </ul>
+                </div>
 
-                     <div class="skills-box">
-                        <ul>
-                            <div class="icono"><ion-icon class="agrandar" name="server-outline"></ion-icon></div>
-                            <li>SQL</li>
-                        </ul>
-                    </div>
+                <div class="skills-box">
+                    <ul>
+                        <div class="icono"><ion-icon class="agrandar" name="server-outline"></ion-icon></div>
+                        <li>SQL</li>
+                    </ul>
+                </div>
 
-                    <div class="skills-box">
-                        <ul>
-                            <div class="icono"><ion-icon class="agrandar" name="logo-ionic"></ion-icon></div>
-                            <li>Ionic</li>
-                        </ul>
-                    </div>
+                <div class="skills-box">
+                    <ul>
+                        <div class="icono"><ion-icon class="agrandar" name="logo-ionic"></ion-icon></div>
+                        <li>Ionic</li>
+                    </ul>
+                </div>
 
-                    <!-- <div class="skills-box">
-                        <ul>
-                            <div class="icono"><ion-icon class="agrandar" name="logo-android"></ion-icon></div>
-                            <li>Android studio</li>
-                        </ul>
-                    </div> -->
+                <div class="skills-box">
+                    <ul>
+                        <div class="icono"><ion-icon class="agrandar"  name="logo-firebase"></ion-icon></div>
+                        <li>Firebase</li>
+                    </ul>
+                </div>
 
-                    <div class="skills-box">
-                        <ul>
-                            <div class="icono"><ion-icon class="agrandar"  name="logo-firebase"></ion-icon></div>
-                            <li>Firebase</li>
-                        </ul>
-                    </div>
+                <div class="skills-box">
+                    <ul>
+                        <div class="icono"><ion-icon class="agrandar"  name="logo-python"></ion-icon></div>
+                        <li>Python</li>
+                    </ul>
+                </div>
 
-                    <div class="skills-box">
-                        <ul>
-                            <div class="icono"><ion-icon class="agrandar"  name="logo-python"></ion-icon></div>
-                            <li>Python</li>
-                        </ul>
-                    </div>
+                <div class="skills-box">
+                    <ul>
+                        <div class="icono"><ion-icon class="agrandar" name="logo-Docker"></ion-icon></div>
+                        <li>Docker</li>
+                    </ul>
+                </div>
 
-                    <div class="skills-box">
-                        <ul>
-                            <div class="icono"><ion-icon class="agrandar" name="logo-Docker"></ion-icon></div>
-                            <li>Docker</li>
-                        </ul>
-                    </div>
-
-                    <div class="skills-box">
-                        <ul>
-                            <div class="icono"><ion-icon class="agrandar" name="logo-amazon"></ion-icon></div>
-                            <li>AWS</li>
-                        </ul>
-                    </div>
-
-
-                    <!-- <div class="skills-box">
-                        <ul>
-                            <div class="icono"><ion-icon class="agrandar" name="logo-google"></ion-icon></div>
-                            <li>Gemini</li>
-                        </ul>
-                    </div> -->
-
+                <div class="skills-box">
+                    <ul>
+                        <div class="icono"><ion-icon class="agrandar" name="logo-amazon"></ion-icon></div>
+                        <li>AWS</li>
+                    </ul>
+                </div>
             </div>
         </section>
 
+        <!-- Formación académica -->
         <section class="academic" id="formacion">
-            <h2 class="section-title" >Formación académica</h2>
+            <h2 class="section-title">Formación académica</h2>
             <div class="courses">
+
+                <!-- Cada bloque es un curso -->
                 <div class="courses-box">
                     <ul>
                         <li class="course-img"><img src="imagenes/imagencdcd.png"></li>
@@ -225,53 +230,53 @@
                     </ul>
                 </div>
            
-            <div class="courses-box">
-                <ul>
-                    <li class="course-img"><img src="imagenes/alura_logo.png"></li>
-                    <li class="course-title"><h4>Formacion Frontend - Alura Latam</h4></li>
-                    <li class="course-subtitle"><p>2023 Finalizado</p></li>
-                </ul>
-            </div>
+                <div class="courses-box">
+                    <ul>
+                        <li class="course-img"><img src="imagenes/alura_logo.png"></li>
+                        <li class="course-title"><h4>Formacion Frontend - Alura Latam</h4></li>
+                        <li class="course-subtitle"><p>2023 Finalizado</p></li>
+                    </ul>
+                </div>
 
-            <div class="courses-box">
+                <div class="courses-box">
                     <ul>
                         <li class="course-img"><img src="imagenes/imagencdcd.png"></li>
                         <li class="course-title"><h4>Full Stack - Codo a Codo 4.0</h4></li>
                         <li class="course-subtitle"><p>2023 Finalizado</p></li>
                     </ul>
-            </div>
+                </div>
 
-            <div class="courses-box">
+                <div class="courses-box">
                     <ul>
                         <li class="course-img"><img src="imagenes/imagencdcd.png"></li>
                         <li class="course-title"><h4>Diseño UX/UI - Codo a Codo 4.0</h4></li>
                         <li class="course-subtitle"><p>2024 Finalizado</p></li>
                     </ul>
-            </div>
+                </div>
 
-            <div class="courses-box">
+                <div class="courses-box">
                     <ul>
                        <li class="course-img"><img src="imagenes/image (1)aws.png"></li>
                        <li class="course-title"><h4>Cloud Foundation - AWS Academy</h4></li>
-                    <li class="course-subtitle"><p>2025 Finalizado</p></li>
+                       <li class="course-subtitle"><p>2025 Finalizado</p></li>
                     </ul>
-            </div>
+                </div>
 
-            <div class="courses-box">
-                <ul>
-                    <li class="course-img"><img src="imagenes/if11.jpg"></li>
-                    <li class="course-title"><h4>Tecnicatura en Desarrollo de Software - IFTS n°11</h4></li>
-                    <li class="course-subtitle"><p>2022-2025 Finalizado</p></li>
-                </ul>
-            </div>
+                <div class="courses-box">
+                    <ul>
+                        <li class="course-img"><img src="imagenes/if11.jpg"></li>
+                        <li class="course-title"><h4>Tecnicatura en Desarrollo de Software - IFTS n°11</h4></li>
+                        <li class="course-subtitle"><p>2022-2025 Finalizado</p></li>
+                    </ul>
+                </div>
 
-            <div class="courses-box">
+                <div class="courses-box">
                     <ul>
                        <li class="course-img"><img src="imagenes/twitter_thumb_201604_image.png"></li>
                        <li class="course-title"><h4>Cloud Architecting - AWS Academy</h4></li>
-                    <li class="course-subtitle"><p>2025 Cursando</p></li>
+                       <li class="course-subtitle"><p>2025 Cursando</p></li>
                     </ul>
-                 </div>
+                </div>
 
                 <div class="courses-box">
                    <ul>
@@ -279,70 +284,75 @@
                      <li class="course-title"><h4>Lic en Tecnologias dijitales - UNICABA</h4></li>
                      <li class="course-subtitle"><p>2025 cursando</p></li>
                    </ul>
-                 </div>
-    
+                </div>
             </div>
         </section>
 
+        <!-- Proyectos -->
         <section class="experience" id="xp">
-            <h2 class="section-title" >Proyectos</h2>
+            <h2 class="section-title">Proyectos</h2>
+
+            <!-- Proyecto 1 -->
             <div class="experiencia-box">
                 <img src="./imagenes/BuscadorRecetas - Google Chrome 23_7_2025 21_42_34.png">
                 <div class="info-container">
                     <h2>Generador de recetas</h2>
                     <h3>Angular, NodeJs, AWS </h3>
-                        <div class="experience-description">
-                                <span class="experience-demo"><a href="https://staging.dx2erda1atmru.amplifyapp.com/"><button>Ver demo</button></a></span>
-                        </div>
+                    <div class="experience-description">
+                        <span class="experience-demo"><a href="https://staging.dx2erda1atmru.amplifyapp.com/"><button>Ver demo</button></a></span>
+                    </div>
                 </div>
             </div>  
 
+            <!-- Proyecto 2 -->
             <div class="experiencia-box">
                 <img src="./imagenes/C.a.C. Turismo - Google Chrome 19_8_2025 15_04_52.png">
                 <div class="info-container">
                     <h2>Turismo web</h2>
                     <h3>Html Css Js y Api</h3>
-                        <div class="experience-description">
-                                <span class="experience-demo"><a href="https://juan-gabriel-ruiz.github.io/Turismo-codo-a-codo/"><button>Ver demo</button></a></span>
-                        </div>
+                    <div class="experience-description">
+                        <span class="experience-demo"><a href="https://juan-gabriel-ruiz.github.io/Turismo-codo-a-codo/"><button>Ver demo</button></a></span>
+                    </div>
                 </div>
             </div>  
 
+            <!-- Proyecto 3 -->
             <div class="experiencia-box">
                 <img src="./imagenes/encriptador.jpg">
                 <div class="info-container">
                     <h2>Encriptador de texto</h2>
                     <h3>Html Css y Javascrpit </h3>
-                        <div class="experience-description">
-                                <span class="experience-demo"><a href="https://juan-gabriel-ruiz.github.io/Encriptador-Desencriptador"><button>Ver demo</button></a></span>
-                        </div>
+                    <div class="experience-description">
+                        <span class="experience-demo"><a href="https://juan-gabriel-ruiz.github.io/Encriptador-Desencriptador"><button>Ver demo</button></a></span>
+                    </div>
                 </div>
             </div>  
 
+            <!-- Proyecto 4 -->
             <div class="experiencia-box">
                 <img src="./imagenes/Barber Dog - Google Chrome 25_09_2025 0_24_58.png">
                 <div class="info-container">
-                <h2>Pagina web Barberia</h2>
+                    <h2>Pagina web Barberia</h2>
                     <h3>Html Css Js y Api</h3>
-                        <div class="experience-description">
-                                <span class="experience-demo"><a href="https://juan-gabriel-ruiz.github.io/barber-dog/"><button>Ver demo</button></a></span>
-                        </div>
+                    <div class="experience-description">
+                        <span class="experience-demo"><a href="https://juan-gabriel-ruiz.github.io/barber-dog/"><button>Ver demo</button></a></span>
+                    </div>
                 </div>
             </div>  
         </section>
     
-
+        <!-- Footer -->
         <section class="footer">
-                <div class="rodape">
-                    <p>  Desarrollado por Ruiz Juan Gabriel - 2025</p>
-                   
-                    
-
-                </div>
+            <div class="rodape">
+                <p>Desarrollado por Ruiz Juan Gabriel - 2025</p>
+            </div>
         </section>
     </div>
-<script src="validacion.js"></script>
-<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <!-- Scripts -->
+    <script src="validacion.js"></script> <!-- Script propio -->
+    <!-- Librería de íconos Ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>

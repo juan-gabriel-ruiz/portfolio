@@ -1,59 +1,60 @@
-/*CSS Reset / Normalize*/
+/* --- RESET / NORMALIZACIÓN DE ESTILOS --- */
 body {
-    box-sizing: border-box;
-    background-color: #abe7ff;
-    cursor: pointer;
-    font-family: 'Raleway';
-    margin: 0;
-    padding: 0;
-    line-height: 1;
-    width: 100vw;
-    font-family: 'Oswald', -serif;
+    box-sizing: border-box; /* Asegura que padding y borde se incluyan en el ancho total */
+    background-color: #abe7ff; /* Color de fondo */
+    cursor: pointer; /* Cambia el cursor a mano */
+    font-family: 'Raleway'; /* Fuente por defecto */
+    margin: 0; /* Elimina márgenes */
+    padding: 0; /* Elimina padding */
+    line-height: 1; /* Altura de línea base */
+    width: 100vw; /* Ocupa todo el ancho de la ventana */
+    font-family: 'Oswald', -serif; /* Sobrescribe la fuente con Oswald */
 }
 
 ol,
 ul,
 li {
-    list-style: none;
+    list-style: none; /* Quita viñetas y numeración */
 }
 
 a {
-    text-decoration: none;
-    color: black;
+    text-decoration: none; /* Elimina subrayado */
+    color: black; /* Links en negro */
 }
 
 textarea:focus,
 input:focus,
 select:focus {
-    box-shadow: 0 0 0 0;
-    border: 0 none;
-    outline: 0;
+    box-shadow: 0 0 0 0; /* Quita sombras al enfocar */
+    border: 0 none; /* Quita borde */
+    outline: 0; /* Quita contorno */
 }
 
+/* Imagen de perfil */
 .imagen-perfil{
     position: relative;
-    width: 50%;
-    min-width: 200px;
-    border-radius:50%;
-    overflow: hidden;
-    aspect-ratio: 1;
+    width: 50%; /* Mitad del contenedor */
+    min-width: 200px; /* Ancho mínimo */
+    border-radius:50%; /* Forma circular */
+    overflow: hidden; /* Recorta exceso */
+    aspect-ratio: 1; /* Relación 1:1 */
 }
 
-/*Mobile First*/
+/* --- DISEÑO MOBILE FIRST --- */
 .todo {
-    margin: 0 16px 0 16px;
+    margin: 0 16px 0 16px; /* Margen lateral */
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* Columna en mobile */
     overflow: hidden;
 }
 
-/*Sessão Menu*/
+/* --- SECCIÓN MENÚ --- */
 section.menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
     align-content: flex-end;
-    height: 10vh;
+    height: 10vh; /* Altura fija */
 }
 
 section header {
@@ -66,13 +67,12 @@ section header {
     color: #464646;
 }
 
-/*Sessão Title*/
 section header h3.menu-title {
-    margin-left: 8px;
+    margin-left: 8px; /* Espacio al título */
 }
 
 section.menu nav ul.menu-list {
-    display: none;
+    display: none; /* Oculta menú en mobile */
 }
 
 section.menu nav li {
@@ -80,6 +80,7 @@ section.menu nav li {
     font-weight: 400;
 }
 
+/* --- SECCIÓN TITLE --- */
 section.title div.title-div div.title-container h2 {
     font-size: 22px;
     font-weight: 700;
@@ -105,6 +106,7 @@ section.title img.profile {
     width: 20%;
 }
 
+/* Títulos de secciones */
 .section-title {
     font-weight: 700;
     font-size: 22px;
@@ -112,12 +114,13 @@ section.title img.profile {
     text-align: center;
 }
 
+/* --- SECCIÓN DATOS --- */
 section.datos {
     font-size: 20px ;
     background-color: #abe7ff;
 }
 
-/*Sessão About*/
+/* --- SECCIÓN SOBRE MÍ --- */
 section.about {
     font-size: 16px;
     background-color: #abe7ff;
@@ -133,7 +136,7 @@ section.about div.about-container img {
     margin: 16px;
 }
 
-/*Sessão Skill*/
+/* --- SECCIÓN SKILLS --- */
 section.skills div.skills-line {
     display: flex;
     flex-wrap: wrap;
@@ -153,12 +156,13 @@ section.skills div.skills-line div.skills-box {
     height: 118px;
 }
 
+/* Icono de cada skill */
 section.skills div.skills-line div.skills-box .icono{
     position: relative;
     width: 100px;
     height: 100px;
     background: #2A7AE4;
-    COLOR: white;
+    color: white;
     border-radius: 5px;
     display: flex;
     justify-content: center;
@@ -179,7 +183,7 @@ section.skills div.skills-line div.skills-box ul {
     padding: 0;
 }
 
-/* Experiência Acadêmica*/
+/* --- SECCIÓN FORMACIÓN ACADÉMICA --- */
 section.academic {
     background-color: #EAF2FD;
 }
@@ -220,7 +224,7 @@ section.academic div.courses ul li.course-subtitle {
     text-align: start;
 }
 
-/* experiência*/
+/* --- SECCIÓN EXPERIENCIA/PROYECTOS --- */
 section.experience {
     margin-top: 13px;
 }
@@ -247,22 +251,20 @@ section.experience div.experiencia-box div.experience-description {
     display: flex;
 }
 
+/* Botón "Repositorio" */
 section.experience div.experiencia-box span.experience-repo button {
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    align-items: center;
     padding: 12px 16px;
     border: 1px solid #2A7AE4;
     color: #2A7AE4;
     box-sizing: border-box;
 }
 
+/* Botón "Demo" */
 section.experience div.experiencia-box span.experience-demo button {
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    align-items: center;
     padding: 12px 16px;
     margin-left: 16px;
     border: 1px solid #2A7AE4;
@@ -274,7 +276,7 @@ section.experience img {
     width: 100%;
 }
 
-/*footeer*/
+/* --- FOOTER --- */
 section.footer {
     height: 10vh;
     background-color: white;
@@ -287,19 +289,21 @@ section.footer div.rodape {
     text-align: center;
 }
 
+/* --- MEDIA QUERIES PARA RESPONSIVE --- */
+
+/* Pantallas desde 700px */
 @media (min-width: 700px) {
     .todo {
         margin: 32px 32px;
     }
 
-    /*title*/
+    /* Sección título */
     section.title {
         margin-bottom: 32px;
     }
 
     div.title-div {
         justify-content: space-around;
-        align-content: flex-start;
         display: flex;
         flex-direction: row-reverse;
     }
@@ -313,7 +317,7 @@ section.footer div.rodape {
         margin-left: 32px;
     }
 
-    /*Skills*/
+    /* Skills */
     section.skills div.skills-line {
         width: 100%;
     }
@@ -324,11 +328,11 @@ section.footer div.rodape {
         height: 118px;
     }
 
-    /*Formación Académica*/
+    /* Formación académica */
     section.academic div.courses {
         display: flex;
-        justify-content: space-between; /* Modificado */
-        flex-wrap: wrap; /* Nuevo */
+        justify-content: space-between;
+        flex-wrap: wrap;
     }
 
     section.academic div.courses-box {
@@ -336,7 +340,7 @@ section.footer div.rodape {
     }
 
     section.academic div.courses ul li.course-img img {
-        width: 90%; /* Modificado */
+        width: 90%;
     }
 
     section.academic div.courses ul li.course-img {
@@ -347,7 +351,7 @@ section.footer div.rodape {
         margin-top: 82px;
     }
 
-    /*expeirência profissional*/
+    /* Experiencia */
     section.experience div.experiencia-box {
         display: flex;
         flex-direction: column;
@@ -358,13 +362,13 @@ section.footer div.rodape {
     }
 }
 
+/* Pantallas desde 1000px */
 @media (min-width: 1000px) {
-    /*main*/
     .section-title {
         font-size: 32px;
     }
 
-    /*Menu*/
+    /* Menú en escritorio */
     section.menu nav ul.menu-list {
         display: flex;
         justify-content: space-between;
@@ -394,7 +398,6 @@ section.footer div.rodape {
         display: flex;
         margin-left: -65px;
         align-items: center;
-        padding: 0px;
         font-size: 20px;
     }
 
@@ -403,10 +406,7 @@ section.footer div.rodape {
         line-height: 23px;
     }
 
-    /*Sessão sobre*/
-    section.about .container{
-        font-size: 20px;
-    }
+    /* Sobre mí */
     section.about {
         font-size: 20px;
         padding: 62px 50px;
@@ -420,56 +420,31 @@ section.footer div.rodape {
         padding: 62px 50px;
     }
     
-    /*Skills*/
-    section.skills div.skills-line {
-        width: 100%;
-    }
-
+    /* Skills */
     section.skills div.skills-line div.skills-box {
         margin: 22px 15px 22px 0px;
         width: 108px;
         height: 118px;
     }
 
-
-    /*Formación Académica*/
+    /* Formación académica */
     section.academic div.courses {
         display: flex;
-        justify-content: space-between; /* Modificado */
-        flex-wrap: wrap; /* Nuevo */
+        justify-content: space-between;
+        flex-wrap: wrap;
     }
 
-    section.academic div.courses-box {
-        width: 380px;
-    }
-
-    section.academic div.courses ul li.course-img img {
-        width: 90%; /* Modificado */
-    }
-
-    section.academic div.courses ul li.course-img {
-        padding: 30px 30px;
-    }
-
-    section.academic {
-        margin-top: 82px;
-    }
-
-    /*Experiencia Profesional*/
+    /* Experiencia */
     section.experience div.experiencia-box {
         display: flex;
         flex-direction: row;
-        /* justify-content: center; */
     }
 
     section.experience div.experiencia-box:nth-child(2) {
         margin-top: 50px;
     }
 
-    section.experience div.experiencia-box:nth-child(3) {
-        flex-direction: row-reverse;
-    }
-
+    section.experience div.experiencia-box:nth-child(3),
     section.experience div.experiencia-box:nth-child(5) {
         flex-direction: row-reverse;
     }
@@ -482,7 +457,7 @@ section.footer div.rodape {
         width: 50%;
     }
 
-    /*Footer*/
+    /* Footer */
     section.footer div.rodape {
         line-height: 10px;
         font-size: 16px;
@@ -492,6 +467,7 @@ section.footer div.rodape {
     }
 }
 
+/* Pantallas desde 1440px */
 @media (min-width: 1440px) {
     div.about-container {
         height: 255px;
